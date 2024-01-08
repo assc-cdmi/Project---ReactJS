@@ -1,0 +1,39 @@
+.HomePage ul li {
+    list-style: none;
+}
+
+.HomePage ul li a {
+    color: #000;
+    text-decoration: none;
+    object-fit: cover;
+    padding: 10px;
+    transition: .3s;
+}
+
+.HomePage ul li:hover a,
+.HomePage ul li.active a {
+    color: #40B5E8;
+    transition: .3s;
+}
+
+.HomePage ul li a .right-arrow {
+    transform: translateX(0px);
+    transition: .3s;
+}
+
+.HomePage ul li a:hover .right-arrow {
+    transform: translateX(5px);
+    transition: .3s;
+}
+
+.languageSelector {
+    max-width: 110px !important;
+}
+
+.css-13cymwt-control {
+    background-color: transparent !important;
+}
+
+.HomePage {
+    font-size: 14px;
+}

@@ -1,0 +1,28 @@
+.bg-light-primary {
+    background-color: #E6F0F9;
+}
+
+.FeaturedJobOffer .card {
+    height: 185px;
+    overflow: hidden;
+}
+
+.FeaturedJobOffer .card:hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.15);
+    height: auto;
+    transition: .3s;
+}
+
+.btn-primary {
+    background-color: #0963C2 !important;
+    transition: .3s;
+}
+
+.btn-primary:hover {
+    background-color: #333333 !important;
+    transition: .3s;
+}

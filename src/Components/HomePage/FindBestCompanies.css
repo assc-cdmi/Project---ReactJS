@@ -1,0 +1,43 @@
+.text-small {
+    font-size: small;
+}
+
+.companiesCard {
+    text-decoration: none;
+}
+
+.companiesCard .card {
+    border: 1.5px solid #CCCCCC !important;
+    transition: .3s;
+}
+
+.companiesCard .right-arrow {
+    color: #CCCCCC;
+}
+
+.companiesCard .card:hover {
+    border: 1.5px solid #40B5E8 !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: .3s;
+}
+
+.companiesCard .card:hover .right-arrow {
+    color: #40B5E8;
+}
+
+.see-all-catagories a:hover {
+    color: #111111;
+    transition: .3s;
+}
+
+.companiesCard .right-arrow,
+.see-all-catagories a .right-arrow {
+    transform: translateX(0px);
+    transition: .3s;
+}
+
+.companiesCard .card:hover .right-arrow,
+.see-all-catagories a:hover .right-arrow {
+    transform: translateX(5px);
+    transition: .3s;
+}

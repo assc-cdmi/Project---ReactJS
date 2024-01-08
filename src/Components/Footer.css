@@ -1,0 +1,16 @@
+.footer-title-text,
+.footer-icon:hover,
+.footer-text-link:hover {
+    color: #40B5E8;
+}
+
+.footer-icon {
+    color: #888888;
+    transition: .3s;
+}
+
+.footer-text-link {
+    color: #999999;
+    text-decoration: none;
+    transition: .3s;
+}

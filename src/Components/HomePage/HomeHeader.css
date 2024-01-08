@@ -1,0 +1,36 @@
+.bg-image-header {
+    background: url("../../Images/Group 14477.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.popularSearch b {
+    color: #0969C3;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #CFE3F4;
+    border-radius: 7px;
+}
+
+.popularSearch div {
+    margin: 10px 0px;
+}
+
+.searchView {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.searchView input,
+.searchView .input-group-text {
+    border: none;
+    padding: 0.2rem 1rem;
+}
+
+.searchView .form-control:focus {
+    box-shadow: none;
+}
+
+.searchView .input-group-text {
+    background-color: #0963C2;
+}
